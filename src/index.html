@@ -14,20 +14,78 @@
 
         <div class="d-flex justify-content-center" >
             <form class="w-50">
-                <input type="text" id="serialnumber" class="form-control" placeholder="Serial-Number" autocomplete="off">
+                <input type="text" id="serialnumber" class="form-control"  readonly placeholder="Serial-Number" autocomplete="off">
                 <input type="text" id="website" class="form-control" placeholder="Website/App Name" autocomplete="off">
                 <div class="row">
                     <div class="col">
-                        <input type="text" id="username" class="form-control" placeholder="UserName" autocomplete="off">
+                        <input type="text" id="username" class="form-control m-0" placeholder="UserName" autocomplete="off">
                     </div>
                     <div class="col">
-                        <input type="text" id="password" class="form-control" placeholder="Password" autocomplete="off">
+                        <input type="text" id="password" class="form-control m-0" placeholder="Password" autocomplete="off">
                     </div>
                 </div>
                 <input type="text" id="url" class="form-control" placeholder="URL" autocomplete="off">
                 <input type="text" id="comments" class="form-control" placeholder="Additional Info" autocomplete="off">
+                
             </form>
         </div>
+    </div>
+    <!--Buttons-->
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-success"id="btn-create">Create</button>
+        <button class="btn btn-primary"id="btn-read">Read</button>
+        <button class="btn btn-warning"id="btn-update">Update</button>
+        <button class="btn btn-danger"id="btn-delete">Delete All</button>
+        
+
+    </div>
+    <div class="container d-flex">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">WEBSITE</th>
+                <th scope="col">USERNAME</th>
+                <th scope="col">PASSWORD</th>
+                <th scope="col">URL</th>
+                <th scope="col">ADDITIONAL INFO</th>
+                <th scope="col">EDIT</th>
+                <th scope="col">Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td><i class="fas fa-edit btnedit"></i></td>
+                <td><i class="fas fa-trash-alt btndelete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@fat</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td><i class="fas fa-edit btnedit"></i></td>
+                <td><i class="fas fa-trash-alt btndelete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td><i class="fas fa-edit btnedit"></i></td>
+                <td><i class="fas fa-trash-alt btndelete"></i></td>
+              </tr>
+            </tbody>
+          </table>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
